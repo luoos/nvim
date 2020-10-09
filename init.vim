@@ -1,7 +1,7 @@
 "==============================="
 "             basic             "
 "==============================="
-colo xcodewwdc
+colo gruvbox 
 set nu
 set spell
 set colorcolumn=80
@@ -19,6 +19,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdtree'
 Plug 'airblade/vim-gitgutter'
 call plug#end()
+
 
 "==============================="
 "             fzf               "
