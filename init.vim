@@ -8,6 +8,7 @@ set colorcolumn=80
 set encoding=utf-8
 nmap j gj
 nmap k gk
+map <C-;> <Esc><Esc>:nohl<CR>
 
 
 "==============================="
