@@ -3,7 +3,6 @@
 "==============================="
 colo gruvbox 
 set nu
-set spell
 set colorcolumn=80
 set encoding=utf-8
 nmap j gj
@@ -19,6 +18,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdtree'
 Plug 'airblade/vim-gitgutter'
+Plug 'plasticboy/vim-markdown'
 call plug#end()
 
 
@@ -65,3 +65,12 @@ noremap <C-S-Tab> :tabprev<CR>
 "           nerdtree            "
 "==============================="
 map <C-n> :NERDTreeToggle<CR>
+
+
+
+"==============================="
+"           markdown            "
+"==============================="
+let g:vim_markdown_override_foldtext = 0
+let g:vim_markdown_no_default_key_mappings = 1
+
